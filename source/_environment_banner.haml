@@ -1,0 +1,2 @@
+= image_tag "environment-banners/#{ENV['RACK_ENV']}-banner.png",
+    class: 'environment-banner' unless ENV['RACK_ENV'] == 'production'

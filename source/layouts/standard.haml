@@ -17,8 +17,7 @@
     = stylesheet_link_tag    'main'
 
   %body
-    = image_tag "environment-banners/#{ENV['RACK_ENV']}-banner.png",
-        class: 'environment-banner' unless ENV['RACK_ENV'] == 'production'
+    = partial 'environment_banner'
 
     .off-canvas-wrap{ 'data-offcanvas' => true }
       .inner-wrap
