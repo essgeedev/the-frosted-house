@@ -1,4 +1,5 @@
 //= require vendor/fastclick
+//= require vendor/foundation/foundation.offcanvas
 
 
 /*
