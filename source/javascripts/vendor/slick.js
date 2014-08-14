@@ -5,7 +5,8 @@ function initializeSlick() {
   $('.featured-images').slick({
     autoplay:      true,
     autoplaySpeed: 5000,
+    fade:          true,
     dots:          true,
-    speed:         1000,
+    speed:         2000,
   });
 };
