@@ -1,1 +1,1 @@
-exec heroku $@ --app # app
+exec heroku $@ --app tfh-development
