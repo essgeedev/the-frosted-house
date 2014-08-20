@@ -17,9 +17,7 @@
     = stylesheet_link_tag    'main'
 
   %body
-    = partial 'environment_banner'
-    .hide-for-small
-      = partial 'top_bar'
+    .hide-for-small= partial 'top_bar'
 
     .off-canvas-wrap{ 'data-offcanvas' => true }
       .inner-wrap
@@ -39,7 +37,7 @@
             = partial 'nav_list'
 
         %section.main-section
-          = yield
+          .l-content= yield
 
         = partial 'footer'
 

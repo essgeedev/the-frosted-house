@@ -1,3 +1,10 @@
 .banner {
-  &.banner-smaller { width: 75%; }
+  display: block;
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  &.banner-smaller {
+    position: relative;
+    width: 75%;
+  }
 }
