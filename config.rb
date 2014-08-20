@@ -1,5 +1,4 @@
 activate :livereload
-activate :i18n                  # localization
 activate :directory_indexes     # pretty url
 
 set :build_dir,       'tmp'
