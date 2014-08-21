@@ -4,9 +4,9 @@ title:  The Frosted House
 ---
 
 .row
-  .columns.small-4
-  .columns.small-8
-    %h1.text-left.chalk-hand.show-for-small Welcome Home
+  .columns.small-5
+  .columns.small-7
+    %h1.text-left.chalk-hand.show-for-small.small-nudge-down Welcome Home
 
 .row
   .columns.small-12
@@ -19,12 +19,16 @@ title:  The Frosted House
   .row
     .columns.small-12.medium-4
       .info-box.info-box-circle
-        = content_tag(:h2, "#{content_tag(:span, 'The', class: 'electrolize')} #{content_tag(:span, 'Artist', class: 'chalk-hand')}", class: 'text-center')
+        = content_tag(:h2, "#{content_tag(:span, 'The', class: 'electrolize')} #{content_tag(:span, 'Artist', class: 'chalk-hand')}", class: 'text-center show-for-small')
+
+        = content_tag(:h2, "#{content_tag(:span, 'The', class: 'electrolize')} #{content_tag(:span, 'Artist', class: 'chalk-hand')}", class: 'text-center hide-for-small')
         = image_tag 'circle.png'
     .columns.small-12.medium-4
       .info-box
         %h1.text-center.chalk-hand.hide-for-small  Welcome Home
     .columns.small-12.medium-4
       .info-box.info-box-circle
-        %h2.text-center.chalk-hand Reviews
+        %h2.text-center.chalk-hand.show-for-small.nudge-down Reviews
+        %h2.text-center.chalk-hand.hide-for-small Reviews
+
         = image_tag 'circle.png'
