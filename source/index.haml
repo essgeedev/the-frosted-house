@@ -6,8 +6,7 @@ title:  The Frosted House
 .row
   .columns.small-4
   .columns.small-8
-    %h1.text-left.chalk-hand.hide-for-small Welcome Home
-    %h1.text-center.chalk-hand.show-for-small  Welcome Home
+    %h1.text-left.chalk-hand.show-for-small Welcome Home
 
 .row
   .columns.small-12
@@ -17,11 +16,14 @@ title:  The Frosted House
       %div= image_tag 'slider/caro3.jpg'
 
 .row
-  .columns.small-12.large-4
+  .columns.small-12.medium-4
     .info-box.info-box-circle
       = content_tag(:h2, "#{content_tag(:span, 'The', class: 'electrolize')} #{content_tag(:span, 'Artist', class: 'chalk-hand')}", class: 'text-center')
-  .columns.small-12.large-4
+      = image_tag 'circle.png'
+  .columns.small-12.medium-4
     .info-box
-  .columns.small-12.large-4
+      %h1.text-center.chalk-hand.hide-for-small  Welcome Home
+  .columns.small-12.medium-4
     .info-box.info-box-circle
       %h2.text-center.chalk-hand Reviews
+      = image_tag 'circle.png'
