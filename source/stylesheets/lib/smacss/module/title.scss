@@ -1,0 +1,17 @@
+.title {
+  font-family: 'chalk-hand-letteringregular', serif;
+  span { font-family: 'Electrolize', sans-serif; }
+}
+
+.title {
+  text-align: center;
+}
+
+.d-small {
+  h1.title,
+  h2.title { font-size: 200%; }
+  h1.title.title-page {
+    font-size: 300%;
+    margin-top: 0.25em;
+  }
+}

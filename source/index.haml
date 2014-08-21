@@ -3,32 +3,27 @@ layout: standard
 title:  The Frosted House
 ---
 
-.row
-  .columns.small-5
-  .columns.small-7
-    %h1.text-left.chalk-hand.show-for-small.small-nudge-down Welcome Home
 
-.row
-  .columns.small-12
-    .featured-images.hide-for-small
-      %div= image_tag 'slider/caro1.jpg'
-      %div= image_tag 'slider/caro2.jpg'
-      %div= image_tag 'slider/caro3.jpg'
-
-.info-boxes-wraper
+.d-small.show-for-small.hide-for-medium-up
   .row
-    .columns.small-12.medium-4
-      .info-box.info-box-circle
-        = content_tag(:h2, "#{content_tag(:span, 'The', class: 'electrolize')} #{content_tag(:span, 'Artist', class: 'chalk-hand')}", class: 'text-center show-for-small')
+    .columns.small-4
+    .columns.small-8
+      %h1.title.title-page Welcome Home
 
-        = content_tag(:h2, "#{content_tag(:span, 'The', class: 'electrolize')} #{content_tag(:span, 'Artist', class: 'chalk-hand')}", class: 'text-center hide-for-small')
-        = image_tag 'circle.png'
-    .columns.small-12.medium-4
-      .info-box
-        %h1.text-center.chalk-hand.hide-for-small  Welcome Home
-    .columns.small-12.medium-4
-      .info-box.info-box-circle
-        %h2.text-center.chalk-hand.show-for-small.nudge-down Reviews
-        %h2.text-center.chalk-hand.hide-for-small Reviews
+  .info-boxes-wraper
+    .row.collapse
+      .columns.small-12
+        .info-box.info-box-circle
+          = content_tag :h2, class: 'title artist' do
+            = content_tag :span do
+              The
+            Artist
 
-        = image_tag 'circle.png'
+    .v-spacer
+
+    .row.collapse
+      .columns.small-12
+        .info-box.info-box-circle
+          %h2.title Reviews
+
+.d-medium.hide-for-small.show-for-medium-up

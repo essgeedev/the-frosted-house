@@ -1,6 +1,7 @@
 body {
   margin:  0;
   padding: 0;
+  background: #AAD3D6 image-url("dots.png") repeat left top;
 }
 
 a {
@@ -8,4 +9,8 @@ a {
   &:hover {
     color: #888;
   }
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: #153156;
 }

@@ -3,12 +3,18 @@
 }
 
 .info-box {
-  &.info-box-circle {
-    h2 {
-      color: #000;
-    }
-    h2.show-for-small {
-      font-size: 4em;
-    }
-  }
+  padding-top: 2em;
 }
+
+.info-box-circle {
+  background-image: url("../images/circle.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:  300px 300px;
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+
+  h1, h2, h3, h4, h5, h6, p, span { color: #fff; }
+}
+
