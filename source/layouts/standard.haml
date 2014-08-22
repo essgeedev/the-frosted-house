@@ -15,30 +15,8 @@
     = stylesheet_link_tag  'main', 'http://fonts.googleapis.com/css?family=Electrolize'
 
   %body
-    .hide-for-small= partial 'top_bar'
+    = partial 'top_bar'
 
-    .off-canvas-wrap{ 'data-offcanvas' => true }
-      .inner-wrap
-        %nav.tab-bar.show-for-small
-
-          %section.tab-bar-section
-            = image_tag 'banner.png', class: 'banner banner-smaller'
-
-          %section.right-small
-            %a.right-off-canvas-toggle.menu-icon{ href: '#' }
-              %span
-
-        %aside.right-off-canvas-menu
-          %ul.off-canvas-list
-            %li
-              %label The Frosted House
-            = partial 'nav_list'
-
-        %section.main-section
-          .l-content= yield
-
-        = partial 'footer'
-
-    %a.exit-off-canvas
+    = yield
 
     = javascript_include_tag 'body'
