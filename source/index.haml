@@ -1,29 +1,15 @@
 ---
 layout: standard
 title:  The Frosted House
+
+slider_images:
+  - caro1.jpg
+  - caro2.jpg
+  - caro3.jpg
 ---
 
-
-.d-small.show-for-small.hide-for-medium-up
-  .row
-    .columns.small-4
-    .columns.small-8
-      %h1.title.title-page Welcome Home
-
-  .info-boxes-wraper
-    .row.collapse
-      .columns.small-12
-        .info-box.info-box-circle
-          = content_tag :h2, class: 'title artist' do
-            = content_tag :span do
-              The
-            Artist
-
-    .v-spacer
-
-    .row.collapse
-      .columns.small-12
-        .info-box.info-box-circle
-          %h2.title Reviews
-
-.d-medium.hide-for-small.show-for-medium-up
+.row
+  .columns.large-12
+    .featured-images
+      - current_page.data.slider_images.each do |img|
+        %div= image_tag "slider/#{img}"
