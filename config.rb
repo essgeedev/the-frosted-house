@@ -1,4 +1,4 @@
-activate :livereload
+# activate :livereload
 activate :directory_indexes     # pretty url
 
 set :build_dir,       'tmp'
@@ -29,7 +29,7 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
-activate :deploy do |deploy|
+# activate :deploy do |deploy|
   # Github Pages
   #deploy.build_before = true # default: false
   #deploy.method = :git
@@ -37,7 +37,7 @@ activate :deploy do |deploy|
   # deploy.remote   = "custom-remote" # remote name or git url, default: origin
   #deploy.branch   = "master" # default: gh-pages
   # deploy.strategy = :submodule # commit strategy: can be :force_push or :submodule, default: :force_push
-end
+# end
 
 
 ###
