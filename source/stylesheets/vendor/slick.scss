@@ -2,19 +2,19 @@
 
 // Default Variables
 
-$slick-font-path: "/" !default;
-$slick-font-family: "slick" !default;
-$slick-loader-path: "./" !default;
-$slick-arrow-color: adjust-saturation(tint(#153156, 20%), -20%) !default;
-$slick-dot-color: adjust-saturation(tint(#153156, 20%), -20%) !default;
+$slick-font-path:        "/"     !default;
+$slick-font-family:      "slick" !default;
+$slick-loader-path:      "./"    !default;
+$slick-arrow-color:      adjust-saturation(tint(#153156, 20%), -20%) !default;
+$slick-dot-color:        adjust-saturation(tint(#153156, 20%), -20%) !default;
 $slick-dot-color-active: #153156 !default;
-$slick-prev-character: '\2190' !default;
-$slick-next-character: '\2192' !default;
-$slick-dot-character: '\2022' !default;
-$slick-dot-size: 10px !default;
-$opacity-default: .75;
-$opacity-on-hover: 1;
-$opacity-not-active: .25;
+$slick-prev-character:   '\2190' !default;
+$slick-next-character:   '\2192' !default;
+$slick-dot-character:    '\2022' !default;
+$slick-dot-size:         10px    !default;
+$opacity-default:        0.75;
+$opacity-on-hover:       1.00;
+$opacity-not-active:     0.25;
 
 
 @function slick-image-url($url) {
