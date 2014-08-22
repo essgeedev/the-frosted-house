@@ -1,16 +1,14 @@
 body {
   margin:  0;
   padding: 0;
-  background: #AAD3D6 image-url("dots.png") repeat left top;
-}
-
-a {
-  color: #aaa;
-  &:hover {
-    color: #888;
-  }
+  background: #e6e4dd image-url("dots.png") repeat left top;
 }
 
 h1, h2, h3, h4, h5, h6, p {
   color: #153156;
+}
+
+a {
+  color: adjust-saturation(tint(#153156, 20%), -20%);
+  &:hover { color: #153156; }
 }
