@@ -12,3 +12,5 @@ a {
   color: adjust-saturation(tint(#153156, 20%), -20%);
   &:hover { color: #153156; }
 }
+
+footer { margin-top: 3em; }
