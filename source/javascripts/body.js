@@ -3,6 +3,7 @@
 //= require         vendor/foundation
 //= require         vendor/foundation/modules
 //= require         vendor/slick
+//= require         gallery
 //= require_self
 
 $(document).foundation();
@@ -10,4 +11,5 @@ $(document).foundation();
 $(document).ready(function() {
   console.log( "ready!" );
   initializeSlick();
+  initializeGallery();
 });
