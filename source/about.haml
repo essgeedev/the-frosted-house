@@ -1,19 +1,25 @@
 ---
 layout:     standard
 title:      About | The Frosted House
-page_title: About
+page_title: About the Artist
 ---
 
 .row
   .columns.large-4
   .columns.large-8
-    %h1.title.page-title= current_page.data.page_title
+    = content_tag :h1, class: 'title title-page-title' do
+      About
+      = content_tag :span do
+        the Artist
+
 
 .content.content-page-content
   .row
     .columns.large-6
-      %p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      %p There’s a special feeling you get when you are completely welcomed into someone’s home.  It comes from the special attention to your needs, the details …nothing is overlooked.  The Frosted House is an in-home bakery offering an experience like no other.
 
-      %p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      %p With a Fine Arts degree from The University of Michigan, Jennifer Gonzalez has worn many creative hats over the years.  From Museum Education to Web Design, nothing fulfills her creative passion, and her passion for people, like sugar art.
+
+      %p Drawing on her years of design/color training and her years of practice as a sugar artist, Jennifer will create a special centerpiece that will transform your big day into an event to remember.  Her attention to detail and friendly manner are what have made her such a success.
     .columns.large-6
       .semicircle-left
