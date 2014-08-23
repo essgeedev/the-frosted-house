@@ -1,7 +1,11 @@
 .content {
   p { font-size: 1em; line-height: 1.4em; }
-  &.content-page-content    { margin-top: 5em; }
-  &.content-contact-content { font-size: 2em;
-  .address { ul { font-size: 1.2em; margin: 1em 0; } }
+  &.content-page-content    {
+    margin-top: 5em;
+    &.content-contact-content {
+      font-size: 2em;
+      margin-top: 2.5em;
+      .address { ul { font-size: 1.2em; margin: 1em 0; } }
+    }
   }
 }
