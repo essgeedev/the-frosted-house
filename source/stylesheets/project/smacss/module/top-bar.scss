@@ -1,0 +1,12 @@
+.top-bar {
+  nav > ul {
+    float:  right;
+    margin: 1em 0;
+  }
+  nav > ul li {
+    display:      inline-block;
+    list-style:   none;
+    margin-left:  2em;
+    padding:      0.5em;
+  }
+}

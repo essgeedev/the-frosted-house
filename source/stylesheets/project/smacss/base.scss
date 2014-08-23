@@ -1,0 +1,16 @@
+body {
+  margin:  0;
+  padding: 0;
+  background: #e6e4dd image-url("dots.png") repeat left top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p      { color: #153156; }
+a      { color:  #9AA6B5 ; &:hover { color: #153156; } }
+ul     { list-style: none; }
+footer { margin-top: 3em; }
