@@ -7,6 +7,6 @@
     display:      inline-block;
     list-style:   none;
     margin-left:  2em;
-    &:first-child { margin-left: 0; }
+    padding: 0.5em;
   }
 }
