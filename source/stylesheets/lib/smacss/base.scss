@@ -14,3 +14,8 @@ p      { color: #153156; }
 a      { color:  #9AA6B5 ; &:hover { color: #153156; } }
 ul     { list-style: none; }
 footer { margin-top: 3em; }
+
+.content {
+  margin-top: 5em;
+  p { font-size: 1.25em; }
+}
