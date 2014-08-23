@@ -14,19 +14,21 @@ slider_images:
       - current_page.data.slider_images.each do |img|
         %div= image_tag "slider/#{img}"
 
-.info-boxes-wraper
-  .row
-    .columns.large-4
-      .info-box.info-box-circle
-        = content_tag :h2, class: 'title artist' do
-          = content_tag :span do
-            The
-          Artist
+.content
+  .info-boxes-wraper
+    .row
+      .columns.large-4
+        .info-box.info-box-circle
+          = content_tag :h2, class: 'title artist' do
+            = content_tag :span do
+              The
+            Artist
 
-    .columns.large-4
-      .info-box.info-box-center
-        %h1.title.title-page= current_page.data.page_title
+      .columns.large-4
+        .info-box.info-box-center
+          %h1.title.title-page= current_page.data.page_title
+          %p Expect stunning creations baked on-site and to be treated like an old friend visiting for a special occasion.
 
-    .columns.large-4
-      .info-box.info-box-circle
-        %h2.title Reviews
+      .columns.large-4
+        .info-box.info-box-circle
+          %h2.title Reviews
