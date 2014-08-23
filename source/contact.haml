@@ -1,0 +1,27 @@
+---
+layout:     standard
+title:      Contact | The Frosted House
+page_title: Contact Me
+---
+
+.row
+  .columns.large-4
+  .columns.large-8
+    = content_tag :h1, class: 'title title-page-title' do
+      Contact
+      = content_tag :span do
+        Me
+
+
+.content.content-page-content.content-contact-content
+  .row
+    .columns.large-6
+      %p Jennifer Gonzalez
+      %p= link_to 'jennifer@thefrostedhouse.com', 'mailto:jennifer@thefrostedhouse.com'
+      %p 512/705.8054
+      .address
+        %ul
+          %li 2710 Greenlawn Parkway
+          %li Austin, TX 78705
+    .columns.large-6
+      .semicircle-left
