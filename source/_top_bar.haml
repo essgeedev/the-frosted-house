@@ -1,7 +1,8 @@
 .top-bar
   .row
     .columns.small-4
-      = image_tag 'banner.png', class: 'banner'
+      = link_to '/' do
+        = image_tag 'banner.png', class: 'banner'
     .columns.small-8
       %nav
         %ul= partial 'nav_list'
