@@ -8,6 +8,7 @@ git commit -m 'Remove Build Dirs'
 
 bundle exec middleman build
 
+cp -r tmp build
 git add -A
 git commit -m 'Build'
 git push origin master
