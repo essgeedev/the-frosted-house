@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-rm -r 'tmp'
+rm -rf tmp
+git rm -rf tmp
 bundle exec middleman build
 git add -A
 git commit -m 'Build'
