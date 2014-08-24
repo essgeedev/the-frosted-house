@@ -1,6 +1,6 @@
 activate :directory_indexes     # pretty url
 
-set :build_dir,       'build'
+set :build_dir,       'tmp'
 set :css_dir,         'stylesheets'
 set :js_dir,          'javascripts'
 set :images_dir,      'images'
