@@ -1,7 +1,6 @@
-# activate :livereload
 activate :directory_indexes     # pretty url
 
-set :build_dir,       'tmp'
+set :build_dir,       'build'
 set :css_dir,         'stylesheets'
 set :js_dir,          'javascripts'
 set :images_dir,      'images'
