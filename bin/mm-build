@@ -9,3 +9,4 @@ bundle exec middleman build
 
 git add -A
 git commit -m 'Build'
+git push origin master
