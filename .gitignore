@@ -7,9 +7,6 @@
 # Ignore bundler config
 /.bundle
 
-# Ignore the build directory
-/build
-
 # Ignore Sass' cache
 /.sass-cache
 
@@ -18,7 +15,6 @@
 
 # Ignore Rspec
 /coverage
-/tmp
 
 # Ignore Foreman .env
 /.env
