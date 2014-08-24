@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 rm -rf tmp
+rm -rf build
 
 git add -A
 git commit -m 'Remove tmp dir (Heroku Build Dir)'
