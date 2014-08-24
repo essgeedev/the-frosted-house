@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-rm -rf source/build
+rm -r 'tmp'
 bundle exec middleman build
-cp -r build source
-bundle exec rake spec
-rm -rf source/build
+git add -A
+git commit -m 'Build'
