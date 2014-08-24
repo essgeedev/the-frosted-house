@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
 rm -rf tmp
+git add tmp
+git commit -m 'Remove tmp dir'
+
 bundle exec middleman build
+
 git add tmp
 git commit -m 'Build'
