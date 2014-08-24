@@ -3,7 +3,7 @@
 rm -rf tmp
 
 git add -A
-git commit -m 'Remove tmp dir'
+git commit -m 'Remove tmp dir (Heroku Build Dir)'
 
 bundle exec middleman build
 
